@@ -1,0 +1,275 @@
+body{
+    width: 100vw;
+    height: auto;
+
+    padding: 0%;
+}
+.navbar ul{
+    display: flex;
+    width:40vw;
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 4vh;
+
+}
+.navbar ul :hover{
+    cursor: pointer;
+    color: rgba(241, 81, 81, 0.832);
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in; 
+
+}
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 550px;
+    font-style: normal;
+    margin-top: 1.85rem;
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    padding-left: 10rem;
+    box-shadow: 2px 2px solid black;
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100vw;
+    object-fit: cover;
+    height: 70vh;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 25vw;
+    height: 70vh;
+   padding-left: 14px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity for transparency */
+    color: white; /* Text color for better readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content at the bottom */
+
+  }
+  h3.imgtitle{
+   position: relative;
+    font-size: 3rem;
+  }
+  .description{
+    font-size: 1.5rem;
+  }
+  .slider{
+    width: 400vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .slidebox{
+    width: 100vw;
+    overflow: hidden;
+  }
+  form {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  input[type="text"]{
+    width: 40vw;
+    height: 1.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 2.5rem;
+  }
+  .searchbox{
+    margin-top: 8vh;
+    justify-content: center;
+  }
+  #labelsearch{
+    font-family: "Roboto Slab", serif;
+
+    font-style: normal;
+    padding-right: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: rgb(203, 17, 17);
+    padding-left: 10rem;
+    font-weight:bolder;
+
+  }
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: white;
+    
+  }
+  
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .booking-form select,
+  .booking-form input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .booking-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+h2{
+    font-size: 3rem;
+    padding-left: 10vw;
+    color: white;
+  
+}
+.backgroundneeded{
+    margin-top: 3vh;
+    padding-top: 1vh;
+    background-image: url(https://media.istockphoto.com/id/1181610669/photo/beautiful-view-of-very-famous-jog-falls-rocket-falls-and-roarer-falls-on-sharavathi-river-in.jpg?s=2048x2048&w=is&k=20&c=LkTe7R-eFRhDrU_-_Yb-MhIhmUwout-jnH4JCDl9DAo=);
+    height: 100vh;
+}
+.theme{
+  width:15vw;
+  height:10vw;
+
+}
+.themes{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-top: 1vh;
+  width:100vw;
+  height:20vh;
+
+}
+.caption{
+  text-align: center;
+}
+.themcont{
+  display: flex;
+  flex-direction: column;
+  height:28vh;
+  width:15vw;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 5px ;
+}
+.themimg{
+  display: flex;
+  justify-content: center;
+}
+.popular{
+  margin-top: 4vh;
+  font-size: 2.5rem;
+}
+h4{
+  margin-top: 2vh;
+}
+.reviewcont {
+  display: grid;
+  height: 40vh; /* Adjust height as needed */
+  width: 100vw; /* Change to 100vw for full viewport width */
+  background-color: black;
+  grid-template-columns: repeat(3, 1fr); /* Efficiently create 3 equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Efficiently create 2 equal rows */
+}
+
+.review {
+  overflow-wrap: break-word; /* Allow text wrapping within the review */
+}
+
+.reviewbox {
+  padding-left:10px;
+  height: 20vh; /* Adjust height as needed */
+  width: 33vw; /* Width should match the calculated width per column (1fr) */
+  background-image:url(https://images.unsplash.com/photo-1529678407585-55ac0053aa47?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+  color: white;
+}
+.reviewtitle{
+  margin-top: 20vh;
+  font-size: 1.5rem;
+  text-align: center;
+}
+span{
+  color:rgb(255, 235, 10);
+}
+.footer{
+  height: 22vh;
+  background-color:black;
+  color:white;
+}
+.footer ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer ul li{
+  margin-top: 1.5vh;
+}
+.footer ul :hover{
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
+.themcont:hover{
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+
+}
